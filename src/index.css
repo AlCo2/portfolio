@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+body{
+  background-color: #112240;
+}
+.titleContainer{
+  text-align: center;
+}
+.titleContainer .title, .projectsSection .title{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.titleContainer .subTitle{
+  font-size: 20px;
+  font-weight: 600;
+  color: #d1d5db;
+}
+
+.projectsSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.about{  
+  width: 600px;
+  text-align: left;
+  padding: 10px;
+}
+.about .title{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.about .information{
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
+  margin-bottom: 20px;
+  color: #d1d5db;
+}
+.about .image{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.skillTitle{
+  font-size: 30px;
+  color: #d1d5db;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skillList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projectList{
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectCard{
+  width: 330px;
+  height: 330px ;
+  background-color: #0a192f;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+.projectCard:hover{
+  background-color: black;
+}
+.cardImage{
+  height: 240px;
+  background-size: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.cardInfo{
+  padding-left: 20px;
+  padding-top: 4px;
+
+}
+.cardTitle{
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+}
+.cardDescription{
+  color: #d1d5db;
+  font-size: small;
+}
+.cardTools{
+  color: #d1d5db;
+  font-size: small;
+  opacity: 0.7;
+}
+
+.shownMobile{
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1010px) {
+  .shownMobile{
+    visibility: visible;
+  }
+  .hiddenMobile{
+    visibility: hidden;
+  }
+}
