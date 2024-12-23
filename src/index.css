@@ -52,6 +52,14 @@ canvas {
   flex-wrap:wrap;
   min-height: 90vh;
 }
+
+.socialMedia{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
 .titleContainer{
   text-align: center;
   position: sticky;
@@ -171,7 +179,7 @@ canvas {
 }
 
 @media only screen and (max-width: 720px) {
-  .titleContainer{
+  .socialMedia{
     margin-top: 30px;
   }
   .titleContainer .title{
