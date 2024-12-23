@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const Project = () => {
   return (
     <div className='projectsSection'>
-        <div className='titleContainer'>
+        <div>
         <p className='title'>Projects</p>
         </div>
         <div className='projectList'>

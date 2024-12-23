@@ -24,6 +24,7 @@ canvas {
 }
 .titleContainer{
   text-align: center;
+  position: sticky;
 }
 .titleContainer .title, .projectsSection .title, .skill .title{
   font-size: 40px;

@@ -7,7 +7,7 @@ import Career from './component/Career'
 import Project from './component/Project';
 import StarsBackground from './component/StarsBackground';
 
-function App() {  
+function App() {
   return (
     <>
       <StarsBackground/>

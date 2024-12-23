@@ -1,4 +1,4 @@
-import { Roll } from "react-awesome-reveal";
+import { JackInTheBox } from "react-awesome-reveal";
 import laravel from '../assets/laravel.png'
 import react from '../assets/react.png'
 import sql from '../assets/sql.png'
@@ -9,7 +9,7 @@ const Skills = () => {
     <div className="skill">
         <p className='title'>Skills</p>
         <div className='skillList'>
-        <Roll direction="up" cascade>
+        <JackInTheBox direction="up" cascade>
             <div className="feature">
             <img src={laravel} alt=""  width={100} height={100}/>
             </div>
@@ -22,7 +22,7 @@ const Skills = () => {
             <div className="feature">
             <img src={mongo} alt=""  width={100} height={100}/>
             </div>
-        </Roll>
+        </JackInTheBox>
         </div>
     </div>
   )
