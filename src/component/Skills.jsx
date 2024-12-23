@@ -7,7 +7,7 @@ import mongo from '../assets/mongo.webp'
 const Skills = () => {
   return (
     <div className="skill">
-        <p className='skillTitle'>Skills</p>
+        <p className='title'>Skills</p>
         <div className='skillList'>
         <Roll direction="up" cascade>
             <div className="feature">

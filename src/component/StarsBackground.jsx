@@ -5,6 +5,7 @@ const StarsBackground = () => {
   useEffect(() => {
     // Scene, Camera, Renderer
     const scene = new THREE.Scene();
+    // scene.background = new THREE.Color(0x000033);
     const camera = new THREE.PerspectiveCamera(
       75,
       window.innerWidth / window.innerHeight,
@@ -18,7 +19,7 @@ const StarsBackground = () => {
     const starGeometry = new THREE.BufferGeometry();
     const starMaterial = new THREE.PointsMaterial({
       color: 0xffffff,
-      size: 0.7,
+      size: 2.5,
     });
 
     const starVertices = [];

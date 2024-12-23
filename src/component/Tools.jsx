@@ -6,7 +6,7 @@ import gitlab from '../assets/gitlab.webp'
 const Tools = () => {
   return (
     <div className='skill'>
-        <p className='skillTitle'>Tools I use</p>
+        <p className='title'>Tools I use</p>
         <div className='skillList'>
         <Flip direction="up" cascade>
             <div className="feature">

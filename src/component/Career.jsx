@@ -12,8 +12,8 @@ const Career = () => {
             <VerticalTimeline>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#ffb400', color: 'white' }}
-                contentArrowStyle={{ borderRight: '7px solid #ffb400' }}
+                contentStyle={{ background: '#2a2a2a', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid #2a2a2a' }}
                 date="Oct 2022 - Jul 2024"
                 icon={<img src={miage} width={'100%'} height={'100%'} style={{borderRadius:'100%', backgroundColor:'white'}}/>}
                 intersectionObserverProps={{triggerOnce: false,}}
@@ -25,8 +25,8 @@ const Career = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#ffb400', color: 'white' }}
-                contentArrowStyle={{ borderRight: '7px solid #ffb400' }}
+                contentStyle={{ background: '#2a2a2a', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid #2a2a2a' }}
                 date="Aug 2023 - Oct 2023"
                 icon={<img src={acwapower} width={'100%'} height={'100%'} style={{borderRadius:'100%'}}/>}
                 intersectionObserverProps={{triggerOnce: false,}}
@@ -38,8 +38,8 @@ const Career = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#ffb400', color: 'white' }}
-                contentArrowStyle={{ borderRight: '7px solid #ffb400' }}
+                contentStyle={{ background: '#2a2a2a', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid #2a2a2a' }}
                 date="Aug 2023 - Sep 2024"
                 icon={<img src={alx} width={'100%'} height={'100%'} style={{borderRadius:'100%'}}/>}
                 intersectionObserverProps={{triggerOnce: false,}}
@@ -50,8 +50,8 @@ const Career = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#ffb400', color: 'white' }}
-                contentArrowStyle={{ borderRight: '7px solid #ffb400' }}
+                contentStyle={{ background: '#2a2a2a', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid #2a2a2a' }}
                 date="Aug 2023 - Oct 2023"
                 icon={<img src={liliana} width={'100%'} height={'100%'} style={{borderRadius:'100%'}}/>}
                 intersectionObserverProps={{triggerOnce: false,}}
