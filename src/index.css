@@ -6,6 +6,21 @@
 body{
   background-color: #112240;
 }
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.main{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  min-height: 100vh;
+}
 .titleContainer{
   text-align: center;
 }
@@ -14,6 +29,7 @@ body{
   font-weight: bold;
   color: white;
 }
+
 .titleContainer .subTitle{
   font-size: 20px;
   font-weight: 600;
@@ -32,6 +48,7 @@ body{
   text-align: left;
   padding: 10px;
 }
+
 .about .title{
   font-size: 30px;
   font-weight: 700;
@@ -51,6 +68,9 @@ body{
   border-radius: 100%;
 }
 
+.skill{
+  margin-bottom: 50px;
+}
 .skillTitle{
   font-size: 30px;
   color: #d1d5db;
@@ -62,8 +82,14 @@ body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.careerSection{
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .projectList{
@@ -72,10 +98,11 @@ body{
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .projectCard{
   width: 330px;
-  height: 330px ;
+  height: 340px ;
   background-color: #0a192f;
   border-radius: 5px;
   text-decoration: none;
@@ -110,15 +137,18 @@ body{
   opacity: 0.7;
 }
 
-.shownMobile{
-  visibility: hidden;
+@media only screen and (max-width: 1010px) {
+
 }
 
-@media only screen and (max-width: 1010px) {
-  .shownMobile{
-    visibility: visible;
+@media only screen and (max-width: 720px) {
+  .titleContainer{
+    margin-top: 30px;
   }
-  .hiddenMobile{
-    visibility: hidden;
+  .titleContainer .title{
+    font-size: 30px;
+  }
+  .about .title{
+    font-size: 25px;
   }
 }

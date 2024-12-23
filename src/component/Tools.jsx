@@ -1,14 +1,14 @@
-import { Slide } from 'react-awesome-reveal'
+import { Slide, Flip } from 'react-awesome-reveal'
 import git from '../assets/git.png'
 import github from '../assets/github.png'
 import gitlab from '../assets/gitlab.webp'
 
 const Tools = () => {
   return (
-    <div>
+    <div className='skill'>
         <p className='skillTitle'>Tools I use</p>
         <div className='skillList'>
-        <Slide direction="up" cascade>
+        <Flip direction="up" cascade>
             <div className="feature">
             <img src={github} alt=""  width={100} height={100}/>
             </div>
@@ -18,7 +18,7 @@ const Tools = () => {
             <div className="feature">
             <img src={gitlab} alt=""  width={100} height={100}/>
             </div>
-        </Slide>
+        </Flip>
         </div>
     </div>
   )
