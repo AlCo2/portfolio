@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id="about" className='about'>
         <p className='title'>Who is Abdellah?</p>
         <div className='information'>
         <p>
@@ -11,7 +11,7 @@ const About = () => {
         <div style={{display:'flex'}}>
         <img src="abdou.jpeg" className='image' alt="image" />
         <div className='information'>
-            <p>I achieved first place in my class and was honored with an award for this accomplishment, showcasing my commitment to excellence and learning</p>
+            <p>I achieved first place in my class and I was honored with an award for this accomplishment, showcasing my commitment to excellence and learning</p>
         </div>
         </div>
     </div>

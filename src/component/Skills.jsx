@@ -6,7 +6,7 @@ import mongo from '../assets/mongo.webp'
 
 const Skills = () => {
   return (
-    <div className="skill">
+    <div id="skills" className="skill">
         <p className='title'>Skills</p>
         <div className='skillList'>
         <JackInTheBox direction="up" cascade>

@@ -6,11 +6,13 @@ import Abdou from './component/Abdou'
 import Career from './component/Career'
 import Project from './component/Project';
 import StarsBackground from './component/StarsBackground';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <>
       <StarsBackground/>
+      <Navbar/>
       <div  style={{position: "relative", zIndex: 1,}}>
         <div className='main'>
           <Abdou/>

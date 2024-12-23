@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins';
+  scroll-behavior: smooth;
 }
 body{
   background-color: #112240;
@@ -15,12 +16,41 @@ canvas {
   height: 100%;
   z-index: -1;
 }
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.navbarList{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.navbarItem{
+  text-decoration: none;
+  color: white;
+}
+
+.navbarItem:hover{
+  border-bottom: 2px solid #b8b8b8;
+}
+
+.navbarItemSelected{
+  border-bottom: 2px solid #b8b8b8;
+}
+
 .main{
   display:flex;
   align-items:center;
   justify-content:center;
   flex-wrap:wrap;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .titleContainer{
   text-align: center;

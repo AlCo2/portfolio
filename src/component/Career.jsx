@@ -6,7 +6,7 @@ import liliana from '../assets/liliana.jpg'
 
 const Career = () => {
   return (
-    <div className='careerSection'>
+    <div id="career" className='careerSection'>
         {/* <p>Career</p> */}
         <div>
             <VerticalTimeline>

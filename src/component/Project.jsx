@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <div className='projectsSection'>
+    <div id="projects" className='projectsSection'>
         <div>
         <p className='title'>Projects</p>
         </div>
