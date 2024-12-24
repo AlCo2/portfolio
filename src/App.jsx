@@ -22,6 +22,7 @@ function App() {
         <Tools/>
         <Career/>
         <Project/>
+        {/* <Contact/> */}
       </div>
     </>
   )
